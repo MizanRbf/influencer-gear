@@ -10,7 +10,12 @@
 body{
   max-width: 2000px;
   margin: 0 auto;
-  padding: 50px;
+}
+main{
+  padding: 30px;
+}
+.footer{
+  padding: 0;
 }
 
 /* Shared Styles */
@@ -45,7 +50,9 @@ p{
 }
 
 /* Header Section Styles */
-
+ .header{
+  padding: 30px;
+ }
 /* Navbar Section Styles */
 .nav-title{
 
@@ -64,7 +71,6 @@ color: rgba(58, 58, 58, 1);
 }
 
 /* Banner Section Styles */
-
 .banner-content{
 margin-top: 145px;
 }
@@ -93,9 +99,11 @@ margin-top: 145px;
 .company-container{
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 50px;
+  gap: 30px;
+  display: flex;
   align-items: center;
-  
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   
 }
 
@@ -246,6 +254,12 @@ footer{
 .banner-description{
   width: 100%;
 }
+.company-container{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 25px;
+  text-align: center;
+}
 .product-box-container{
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
@@ -269,5 +283,9 @@ footer{
 }
 .featured-img> img{
   width: 100%;
+}
+.footer{
+  margin: 0;
+  padding: 0;
 }
 }
