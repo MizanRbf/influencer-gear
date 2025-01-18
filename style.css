@@ -85,12 +85,65 @@ margin-top: 145px;
 
 /* Company Section Styles */
 
+.company{
+  border: 1px solid #dddddd7e;
+  padding: 36px 62px;
+  margin-top: 60px;
+}
+.company-container{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 50px;
+  align-items: center;
+  
+  
+}
 
 /* Products Section Styles */
-
+.section-title{
+  text-align: center;
+}
+.product-box-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1047px;
+  margin: 0 auto;
+}
+.product-box{
+  max-width: 330px;
+  padding: 15px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+.product-box> img{
+  width: 100%;
+}
+.product-title{
+  font-size: 28px;
+  font-weight: 500px;
+}
+.price-money{
+  font-size: 24px;
+  font-weight: 400px;
+  color: rgba(0, 0, 0, 0.87);
+}
 
 /* Featured Section Styles */
-
+.featured{
+  margin: 174px 165px 100px 165px;
+  gap: 96px;
+}
+.featured-title{
+font-size: 24px;
+font-weight: bold;
+}
+.featured-description{
+  font-size: 16px;
+  font-weight: bold;
+}
+.featured-btn{
+/* border-radius: none; */
+}
 
 /* Footer Section Styles */
 
@@ -124,6 +177,34 @@ margin-top: 145px;
 .banner-description{
   width: 100%;
 }
+.company{
+  border: none;
+  padding: 20px;
+}
+.company-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  text-align: center;
+}
+.product-box-container{
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0 auto;
+  /* width: 329px; */
+  padding: 24px;
+}
+.product-box{ 
+ max-width: 100%;
+}
+.featured{
+  flex-direction: column-reverse;
+  /* margin: 174px 165px 100px 165px; */
+  gap: 96px;
+}
+.featured-content{
+  width: 400px;
+  text-align: center;
+  }
 }
 
 /* Responsive for Medium Device */
@@ -152,6 +233,28 @@ margin-top: 145px;
 .banner-description{
   width: 100%;
 }
+.product-box-container{
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  padding: 24px;
 }
-
-/*  */
+.product-box{ 
+ max-width: 100%;
+}
+.featured{
+  flex-direction: column-reverse;
+  /* margin: 174px 165px 100px 165px; */
+  gap: 96px;
+}
+.featured-content{
+  width: 600px;
+  text-align: center;
+  }
+.featured-img{
+  width: 40em;
+  margin: 0 20px;
+}
+.featured-img> img{
+  width: 100%;
+}
+}
