@@ -100,11 +100,13 @@ margin-top: 145px;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 30px;
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; */
+}
+.company-container img{
+  width: 70%;
 }
 
 /* Products Section Styles */
@@ -259,6 +261,9 @@ footer{
   grid-template-columns: repeat(7, 1fr);
   gap: 25px;
   text-align: center;
+}
+.company-container img{
+  width: 100%;
 }
 .product-box-container{
   grid-template-columns: repeat(2, 1fr);
